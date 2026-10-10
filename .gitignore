@@ -1,0 +1,37 @@
+# Keil build output
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.uvguix.*
+*.uvopt
+*.uvoptx
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.o
+*.d
+*.crf
+*.dep
+
+# Quartus build output
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+*.qws
+*.sof
+*.rbf
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+secrets.*
